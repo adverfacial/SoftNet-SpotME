@@ -97,3 +97,17 @@ https://arxiv.org/abs/2106.06489
 
 ##### Please email me at genbing67@gmail.com if you have any inquiries or issues.
 
+
+
+## Guide to run it 
+First, you need install the requirements.txt as mentioned, however in any case any library cause ImportError just 
+```pip install <that library name>```
+Next, dlib library is bit tricky, you need cmake for it. Best way which works is: 
+```pip install cmake```
+```conda install -c conda-forge dlib```
+
+Finally, I dont recomment you to use Ubuntu as there is a library
+```pywin==227```
+which is for Window only. 
+
+This may or may not affect result, still checking it out. 
